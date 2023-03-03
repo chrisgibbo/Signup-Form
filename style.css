@@ -1,0 +1,13 @@
+:root {
+    --bodyred: hsl(0, 100%, 74%);
+    --btngreen: hsl(154, 59%, 51%);
+    --btnblue: hsl(248, 32%, 49%);
+    --forminputfont: hsl(249, 10%, 26%);
+    --formterms: hsl(246, 25%, 77%);
+}
+
+body {
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: var(--bodyred);
+    margin: 0;
+}
