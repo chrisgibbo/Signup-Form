@@ -1,3 +1,9 @@
+/* Font family = poppins
+weights: 400, 500, 600, 700 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
 :root {
     --bodyred: hsl(0, 100%, 74%);
     --btngreen: hsl(154, 59%, 51%);
@@ -10,4 +16,5 @@ body {
     background-image: url(./images/bg-intro-desktop.png);
     background-color: var(--bodyred);
     margin: 0;
+    font-family: "Poppins";
 }
