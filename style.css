@@ -18,3 +18,35 @@ body {
     margin: 0;
     font-family: "Poppins";
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-area {
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    height: 600px;
+}
+
+.text-side {
+    width: 50%;
+    color: white;
+    padding: 0 10px 0 10px;
+}
+
+.title {
+    line-height: 1.1;
+    width: 350px;
+}
+
+.body-text {
+    font-size: 12px;
+    line-height: 1.7;
+    width: 1150px;
+}
