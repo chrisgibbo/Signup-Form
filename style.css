@@ -27,17 +27,15 @@ body {
 }
 
 .card-area {
-    border: 2px solid white;
     display: flex;
     align-items: center;
-    max-width: 80%;
-    height: 600px;
+    max-width: 70%;
+    height: 500px;
 }
 
 .text-side {
     width: 50%;
     color: white;
-    padding: 0 10px 0 10px;
 }
 
 .title {
@@ -49,4 +47,29 @@ body {
     font-size: 12px;
     line-height: 1.7;
     width: 1150px;
+}
+
+.input-area {
+    width: 40%;
+}
+
+.form-side {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    height: 300px;
+}
+
+.trial-btn-area {
+    margin-bottom: 12px;
+}
+
+.trial-btn {
+    background-color: var(--btnblue);
+    min-width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    color: white;
+    font-size: 12px;
 }
