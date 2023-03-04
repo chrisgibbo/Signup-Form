@@ -13,10 +13,10 @@ weights: 400, 500, 600, 700 */
 }
 
 body {
-    background-image: url(./images/bg-intro-desktop.png);
-    background-color: var(--bodyred);
     margin: 0;
     font-family: "Poppins";
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: var(--bodyred);
 }
 
 .container {
@@ -30,6 +30,7 @@ body {
     display: flex;
     align-items: center;
     height: 500px;
+    width: 790px;
 }
 
 .text-side {
@@ -43,12 +44,13 @@ body {
 }
 
 .body-text {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 1.7;
+    padding-right: 30px;
 }
 
 .input-area {
-    width: 40%;
+    width: 45%;
 }
 
 .trial-btn-area {
@@ -63,7 +65,9 @@ body {
     box-shadow: 0px 5px 0px 0.5px rgba(50, 50, 93, 0.25);
     height: 40px;
     color: white;
-    font-size: 12px;
+    font-size: 11px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
 }
 
 .form-side {
@@ -75,12 +79,13 @@ body {
 }
 
 .input-box {
-    height: 50px;
+    height: 55px;
+    margin-bottom: -5px;
 }
 
 .input-details {
     width: 100%;
-    height: 30px;
+    height: 35px;
     border-radius: 3px;
     border: 0.2px solid var(--formterms);
     text-indent: 20px;
@@ -89,4 +94,87 @@ body {
 
 input:focus {
     outline: 0.1px solid var(--forminputfont);
+}
+
+#submit-btn {
+    min-width: 100%;
+    height: 40px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: var(--btngreen);
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.terms-msg {
+    padding-top: 5px;
+    font-size: 7px;
+    text-align: center;
+    color: var(--formterms);
+}
+
+.terms-link {
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+
+@media (max-width: 720px) {
+    .card-area {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        height: 70vh;
+    }
+
+    .card-area {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        min-width: 500px;
+    }
+
+    .text-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
+    .body-text {
+        font-size: 13px;
+        line-height: 1.6;
+        padding: 0px 10px 30px 10px;
+        min-width: 250px;
+    }
+
+    .input-area {
+        min-width: 250px;
+    }
+
+    .trial-btn {
+        height: 70px;
+        padding: 0 50px 0 50px;
+        line-height: 1.6;
+    }
+
+    .form-side {
+        padding: 15px;
+    }
+
+    .terms-msg {
+        font-size: 8px;
+        padding: 5px 10px 0px 10px;
+    }
 }
