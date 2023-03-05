@@ -50,7 +50,7 @@ body {
 }
 
 .input-area {
-    width: 45%;
+    width: 50%;
 }
 
 .trial-btn-area {
@@ -88,6 +88,8 @@ body {
     height: 35px;
     border-radius: 3px;
     border: 0.2px solid var(--formterms);
+    font-family: "Poppins";
+    font-weight: 600;
     text-indent: 20px;
     font-size: 12px;
 }
@@ -100,6 +102,8 @@ input:focus {
     min-width: 100%;
     height: 40px;
     font-size: 10px;
+    font-family: "Poppins";
+
     letter-spacing: 1px;
     color: white;
     background-color: var(--btngreen);
