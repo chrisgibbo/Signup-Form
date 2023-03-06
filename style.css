@@ -29,28 +29,29 @@ body {
 .card-area {
     display: flex;
     align-items: center;
-    height: 500px;
-    width: 790px;
+    height: 600px;
+    width: 940px;
 }
 
 .text-side {
-    width: 50%;
     color: white;
+    width: 80%;
 }
 
 .title {
+    font-size: 38px;
     line-height: 1.1;
     width: 350px;
 }
 
 .body-text {
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1.7;
-    padding-right: 30px;
 }
 
 .input-area {
-    width: 50%;
+    width: 80%;
+    padding: 0 20px 0 50px;
 }
 
 .trial-btn-area {
@@ -60,10 +61,10 @@ body {
 .trial-btn {
     background-color: var(--btnblue);
     min-width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
     box-shadow: 0px 5px 0px 0.5px rgba(50, 50, 93, 0.25);
-    height: 40px;
+    height: 45px;
     color: white;
     font-size: 11px;
     letter-spacing: 0.2px;
@@ -72,21 +73,21 @@ body {
 
 .form-side {
     background: white;
-    border-radius: 5px;
-    padding: 25px;
-    height: 275px;
+    border-radius: 8px;
+    padding: 30px;
+    height: 300px;
     box-shadow: 0px 5px 0px 0.5px rgba(50, 50, 93, 0.25);
 }
 
 .input-box {
-    height: 55px;
+    height: 65px;
     margin-bottom: -5px;
 }
 
 .input-details {
     width: 100%;
     height: 35px;
-    border-radius: 3px;
+    border-radius: 5px;
     border: 0.2px solid var(--formterms);
     font-family: "Poppins";
     font-weight: 600;
@@ -126,29 +127,25 @@ input:focus {
     font-weight: 600;
 }
 
-@media (max-width: 720px) {
-    .card-area {
-        padding: 20px;
-    }
-}
+
 
 @media (max-width: 600px) {
 
     .container {
-        height: 70vh;
+        height: 100vh;
     }
 
     .card-area {
         display: flex;
         flex-direction: column;
         text-align: center;
-        min-width: 500px;
     }
 
     .text-side {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 60%;
     }
 
     .title {
@@ -157,20 +154,22 @@ input:focus {
     }
 
     .body-text {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 1.6;
         padding: 0px 10px 30px 10px;
         min-width: 250px;
     }
 
     .input-area {
-        min-width: 250px;
+        max-width: 275px;
+
     }
 
     .trial-btn {
         height: 70px;
         padding: 0 50px 0 50px;
         line-height: 1.6;
+        font-size: 13px;
     }
 
     .form-side {
@@ -179,6 +178,15 @@ input:focus {
 
     .terms-msg {
         font-size: 8px;
-        padding: 5px 10px 0px 10px;
+        padding: 2px 10px 0px 10px;
+    }
+
+    .input-box {
+        margin-bottom: -10px;
+    }
+
+
+    .input-details {
+        height: 40px;
     }
 }
