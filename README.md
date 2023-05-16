@@ -7,13 +7,13 @@ Thanks for checking out this front-end coding challenge.
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
 
-## The challenge
+## The challenge 💪 🤠 👇
 
 Your challenge is to build out this introductory component and get it looking as close to the design as possible.
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Your users should be able to:
+### Your users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
@@ -23,3 +23,11 @@ Your users should be able to:
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
+## Desktop Screenshot 🌱 🌱
+
+<img width="808" alt="Signup Form Screenshot" src="https://github.com/chrisgibbo/Signup_Form/assets/125750905/fabed046-d631-42b0-8e8d-26ff0a064827">
+
+
+### Mobile Screenshot 😎
+
+<img width="313" alt="Signup Form Screenshot Mobile" src="https://github.com/chrisgibbo/Signup_Form/assets/125750905/6c5118be-2028-41b8-9270-ff8116b01813">
